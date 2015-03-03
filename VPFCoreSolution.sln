@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SQLVPFCoreProject", "SQLVPFCoreProject\SQLVPFCoreProject.sqlproj", "{7288E4F6-E74C-4E51-AA0F-CBEFA7F76EA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{53475E38-B05E-4D0E-9EF4-53B28C3B63CA}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VPFCoreProject", "VPFCoreProject\VPFCoreProject.csproj", "{340F3CDD-A234-4D29-A4E5-35C4C089274F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7288E4F6-E74C-4E51-AA0F-CBEFA7F76EA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7288E4F6-E74C-4E51-AA0F-CBEFA7F76EA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7288E4F6-E74C-4E51-AA0F-CBEFA7F76EA4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7288E4F6-E74C-4E51-AA0F-CBEFA7F76EA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7288E4F6-E74C-4E51-AA0F-CBEFA7F76EA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7288E4F6-E74C-4E51-AA0F-CBEFA7F76EA4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{340F3CDD-A234-4D29-A4E5-35C4C089274F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{340F3CDD-A234-4D29-A4E5-35C4C089274F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{340F3CDD-A234-4D29-A4E5-35C4C089274F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{340F3CDD-A234-4D29-A4E5-35C4C089274F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,71 @@
+﻿@model IEnumerable<VPFCoreProject.Areas.VPF.Models.VPFCore>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CoreId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MenuID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Data)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Privilege)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ParentMenuID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ResourceKey)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CoreId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MenuID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Data)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Privilege)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ParentMenuID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ResourceKey)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.MenuID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.MenuID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.MenuID })
+            </td>
+        </tr>
+    }
+    
+    </table>
+</body>
+</html>

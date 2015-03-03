@@ -1,0 +1,33 @@
+﻿@model VPFCoreProject.Areas.VPF.Models.VPFCore
+@Scripts.Render("~/bundles/VPFPut")
+@Scripts.Render("~/Style/VPFPut")
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visual Process Flow Creating A new Model usign user's input</title>
+</head>
+<body>
+    <form id="ItemSelection"></form>
+
+
+
+
+
+
+    <li>@Html.ActionLink("GetData", "GetData",new { Controller = "VPFCores", Area = "VPF", Id = 108101 })  </li>
+    <button id="btnNew">@Html.ActionLink("New", "PutData", new { Controller = "VPFCores", Area = "VPF"}) </button>
+    <button disabled id="btnAdd">Add</button>
+    <button id="btnCancel">Cancel</button>
+    <button  id="Save"></button>
+    <p id="VPFTag"></p>
+</body>
+</html>
+
+
+
+
+
+
+
+

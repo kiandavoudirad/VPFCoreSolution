@@ -1,0 +1,21 @@
+﻿@model VPFCoreProject.Areas.VPF.Models.VPFCore
+@Scripts.Render("~/bundles/VPFCore")
+@Styles.Render("~/Style/VPFPut")
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visual Process Flow</title>
+
+</head>
+<body>
+   
+    <p id="VPFTag">@ViewBag.MenuId</p>
+   <button onclick="changeColor('blue');">blue</button>
+    <button onclick="changeColor('red');">red</button>
+    <button onclick="LoadSvgEditIntoFrame();">LoadSvgEditIntoFrame</button>
+    <button onclick="LoadSVGData();">LoadSVGData</button>
+    <button onclick = "HideTools()">HideTools </button>
+    <button onclick="SaveData()">SaveData</button>
+
+</body>
+</html>
