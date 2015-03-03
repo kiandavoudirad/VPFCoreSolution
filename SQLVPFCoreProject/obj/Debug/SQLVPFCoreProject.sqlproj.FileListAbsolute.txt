@@ -1,0 +1,5 @@
+C:\Users\KDavoudiRad\Documents\Visual Studio 2013\VPFCoreSolution\SQLVPFCoreProject\bin\Debug\SQLVPFCoreProject.dacpac
+C:\Users\KDavoudiRad\Documents\Visual Studio 2013\VPFCoreSolution\SQLVPFCoreProject\bin\Debug\SQLVPFCoreProject.dll
+C:\Users\KDavoudiRad\Documents\Visual Studio 2013\VPFCoreSolution\SQLVPFCoreProject\bin\Debug\SQLVPFCoreProject.pdb
+C:\Users\KDavoudiRad\Documents\Visual Studio 2013\VPFCoreSolution\SQLVPFCoreProject\obj\Debug\SQLVPFCoreProject.dll
+C:\Users\KDavoudiRad\Documents\Visual Studio 2013\VPFCoreSolution\SQLVPFCoreProject\obj\Debug\SQLVPFCoreProject.pdb
